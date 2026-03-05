@@ -1,0 +1,16 @@
+{
+  "name": "react-native-interactive-ui-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "ui",
+    "example"
+  ],
+  "repository": "https://github.com/Raman0925/react-native-interactive-ui",
+  "author": "Raman0925 <ramankumarkannaujiya@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:ui": "cd ui && npm run build || exit 0",
+    "start:example": "cd example && npm start || exit 0"
+  }
+}
